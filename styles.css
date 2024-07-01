@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-image: url(./assests/images/photo-1544006659-f0b21884ce1d.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: brightness(40%);
+}
+
+.social {
+    font-size: 50px;
+
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.main .one {
+    font-family: "General Sans", sans-serif;
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.main .two {
+    font-family: "General Sans", sans-serif;
+    color: rgb(8, 8, 8);
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.main button {
+    background-color: rgb(77 75 210);
+    color: white;
+    padding: 20px 35px;
+    font-size: large;
+    margin-left: 130px;
+    margin-top: 20px;
+    border: none;
+}
+
+.ones {
+    font-family: "General Sans", sans-serif;
+    padding-left: 70px;
+    padding-top: 70px;
+    font-size: 60px
+}
+
+.twos {
+    font-family: "General Sans", sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+ul {
+    font-family: "General Sans", sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 825px) {
+    nav {
+        height: 800px;
+    }
+
+    .logo h1 {
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .main .one {
+        font-family: "General Sans", sans-serif;
+        color: rgb(5, 5, 5);
+        font-size: 60px;
+        padding-top: 180px;
+        padding-left: 30px;
+    }
+
+    .main .two {
+        font-family: "General Sans", sans-serif;
+        color: rgb(8, 8, 8);
+        font-size: 30px;
+        padding-top: 30px;
+        padding-left: 35px;
+    }
+
+    .main button {
+        background-color: rgb(77 75 210);
+        color: white;
+        padding: 20px 35px;
+        font-size: medium;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .ones {
+        font-family: "General Sans", sans-serif;
+        padding-left: 40px;
+        padding-top: 70px;
+        font-size: 50px
+    }
+
+    .twos {
+        font-family: "General Sans", sans-serif;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 45px;
+    }
+
+    ul {
+        font-family: "General Sans", sans-serif;
+        display: flex;
+        list-style: none;
+        font-size: large;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 367px){
+    nav {
+        height: 700px;
+    }
+
+    .logo h1 {
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .main .one {
+        font-family: "General Sans", sans-serif;
+        color: rgb(5, 5, 5);
+        font-size: 40px;;
+        padding-top: 80px;
+        padding-left: 10px;
+    }
+
+    .main .two {
+        font-family: "General Sans", sans-serif;
+        color: rgb(8, 8, 8);
+        font-size: 20px;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    .main button {
+        background-color: rgb(77 75 210);
+        color: white;
+        padding: 10px 15px;
+        font-size: small;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .ones {
+        font-family: "General Sans", sans-serif;
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 30px
+    }
+
+    .twos {
+        font-family: "General Sans", sans-serif;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    ul {
+        font-family: "General Sans", sans-serif;
+        display: flex;
+        list-style: none;
+        font-size: small;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}
